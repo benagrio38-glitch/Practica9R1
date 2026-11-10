@@ -33,6 +33,16 @@ Es una sola pantalla con barra de navegación abajo y cinco pestañas:
 
 Todo el código está en un solo archivo: `lib/main.dart`.
 
+## Evidencia de funcionamiento
+
+| Party | Lugares | Bebidas |
+|---|---|---|
+| ![Party](evidencia/01_party.png) | ![Lugares](evidencia/02_lugares.png) | ![Bebidas](evidencia/03_bebidas.png) |
+
+| Juegos | Equipo |
+|---|---|
+| ![Juegos](evidencia/04_juegos.png) | ![Equipo](evidencia/05_equipo.png) |
+
 ## Aviso
 
 La app es solo para mayores de 18 años. Los precios y lugares son inventados, de ejemplo.
@@ -41,5 +51,5 @@ La app es solo para mayores de 18 años. Los precios y lugares son inventados, d
 
 ```
 flutter pub get
-flutter run
+flutter run -d chrome
 ```
