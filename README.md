@@ -53,3 +53,9 @@ La app es solo para mayores de 18 aÃ±os. Los precios y lugares son inventados, d
 flutter pub get
 flutter run -d chrome
 ```
+
+## Pruebas automáticas
+
+`flutter test` pasa las 3 pruebas de `test/widget_test.dart`: la barra de navegación con las cinco pestañas, los botones de la pestaña Party y los tipos de lugar de la pestaña Lugares.
+
+![flutter test](evidencia/06_flutter_test.png)
